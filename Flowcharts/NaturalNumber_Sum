@@ -1,0 +1,11 @@
+:::Find the sum of n natural number:::
+Pseudo code :-
+
+1. Start
+2. Input n
+3. Let sum = 0 , value = 1
+4. while value < n do
+      sum = sum + value
+      value = value + 1
+5. Print "sum"
+6. End

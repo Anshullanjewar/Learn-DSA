@@ -1,0 +1,62 @@
+Operators
+  Symbols that tells compiler to perform some operations.
+  Eg:- sum = a + b; here a and b are operants and + is operator.
+
+ Arthmetic operator (Binary/Unary/Ternary)
+     Binary:- it has two operants  ("+", "-", "*", "/", "%")
+       Eg:- int sum = a  + b;
+
+     Unary:- it has single unit
+        Pre increment :- ++a (value change then use)
+        Post increment :- a++ (use then change)
+       Eg:- int inc = a  + 1;
+            inc++ or inc--
+
+
+     Ternary Operator:- variable condition ? statement1 : statement2;
+        Eg:- boolean larger = (5>3)? 5 : 3;
+        String type = (5%2==0) ? "even" : "odd";
+
+ Relational operator
+     To find relation between two values
+     == to check values are equal.
+     != to check values are not equal.
+     > to check is first value greater then second
+     < to check value is smaller
+     >= to check value is greater or equal
+     <= to check value is smaller or equal
+
+ Logical operator
+     To check logics of program
+     && (Logical AND)  statement1 and statement2 both should be true to get output true
+     || (Logical OR)  statement1 and statement2 any one is true to get output true
+     ! (Logical NOT) it makes true statement false or false statement true
+
+ Bitwise operator
+
+ Assignment operator
+     It assign the right value to left.
+     =  a = b (value of b is assigned to a)
+     += a+=b (b is added to a)
+     -= a-=b (b is subtracted to a)
+     *= a*=b (b is multiplied to a)
+     /= a/=b (b is divided to a)
+
+
+
+
+ - Ternary Operator:-
+   variable condition ? statement1 : statement2;
+   Eg:- boolean larger = (5>3)? 5 : 3;
+        String type = (5%2==0) ? "even" : "odd";
+
+
+ switch(variable){
+     case 1 : //output
+              break;
+     case 2 : //output
+              break;
+     case 3 : //output
+              break;
+     default : //output
+   }

@@ -1,0 +1,15 @@
+
+Sorting
+ Arrange in an order
+
+- Types of Sorting
+     Bubble Sorting
+     Selection Sorting
+     Insertion Sorting
+     Counting Sort
+
+- Stable Sorting Algorithm
+     Original order is maintained when elements have same value.
+
+- Unstable Sorting Algorithm
+     Original order is not maintained when elements have same value.

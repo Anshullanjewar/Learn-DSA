@@ -1,0 +1,14 @@
+:::To find if number is prime or not:::
+Pseudo code :-
+
+1. Start
+2. Input n
+3. Let div = 2
+4. While div < n do
+    if n % div == 0
+      print "Not Prime"
+      Exit
+    else
+      div = div + 1
+5. Print "Prime"
+6. End
