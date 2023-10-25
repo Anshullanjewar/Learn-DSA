@@ -1,0 +1,49 @@
+Strings:-
+  It is used to store sequence character arrays.
+
+  String str = "abc";
+  String str2 = new String("pqr");
+
+  Concatenation :-
+     Adding of two string
+     String firstName = Anshul;
+     String lastName = Lanjewar;
+     System.out.print(firstName + " " + lastName);
+
+
+  - Length of string is --> str.length()
+  - Substring from given index to last  --> str.substring(2);
+  - Substring between two index  --> str.substring(2,5);  //[2,5)
+  - To get particular character of String --> charAt(position)
+      Eg:- System.out.print(charAt(2));
+  - When two string have same characters it points to the one object only
+    but if new string is created it will not point to that previous object.
+    Now to check the characters are equal we use --> .equals()
+    Eg:- String str1 = "Anshul";
+         String str2 = "Anshul";
+         String str3 = new String ("Anshul");
+         Now to compare:-  str1==str2     //compares references
+                           str1.equals(str3)  //compares
+  - To check s1 have substring as s2  -->  s1.contains(s2);
+  - To check lexicographic Largest  -->  s1.compareTo(s2);
+  - To get the index of s2 in s1  -->  s1.indexOf(s2);
+      if s2 is not present in s1 this will return -ve value
+  - To get the index of s2 in s1 with index reference  -->  s1.indexOf(s2,index);
+  - Add to string -->  s1 = s1.concat("string to add");
+
+  - Interning
+    When we have same value of string it will not create any other, it will just point
+    to that existing one.
+
+  - StringBuilder:-
+     It can be updated after creation.
+     StringBuilder sb = new StringBuilder("");
+
+     To add characters behind string --> sb.append()
+     To convert any object in String --> sb.toString()
+
+
+  - Strings are Immutable
+
+
+

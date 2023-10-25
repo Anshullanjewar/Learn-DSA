@@ -2,7 +2,7 @@ Operators
   Symbols that tells compiler to perform some operations.
   Eg:- sum = a + b; here a and b are operants and + is operator.
 
- Arthmetic operator (Binary/Unary/Ternary)
+ Arithmetic operator (Binary/Unary/Ternary)
      Binary:- it has two operants  ("+", "-", "*", "/", "%")
        Eg:- int sum = a  + b;
 

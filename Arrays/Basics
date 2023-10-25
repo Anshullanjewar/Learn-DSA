@@ -1,0 +1,38 @@
+ - Arrays
+     List of Elements of same type placed in contiguous memory location.
+      OR
+     Data Structure that is collection of similar type of data.
+
+     datatype [] variable name =new datatype [size];
+     Eg:- int [] arr = new int [5];
+
+     Operations:-
+         Create
+            datatype [] variable name =new datatype [size];
+            Eg:- int [] arr = new int [5];
+         Input
+            int [] numbers = {1,2,3,4};
+            String [] names = {"Anshul", "Rahul", "Ram"}
+         Update
+            int [] numbers = {1,2,3,4};
+            numbers[2] = 5;
+         Output
+
+     - Internal Working:-
+          int [] arr    -> Declaration of array
+                           Array is defined in stack memory in compile time.
+
+          arr = new int [5]  -> Initialization of array
+                                 Object is created in heap memory at runtime.
+
+
+    - It has 0-based indexing.
+    - Default value eof array is 0 or null.
+    - Values of array is itself an object and stored in different parts of heap.
+    - It is mutable that is it can change object.
+      (If two variable points to an object, if one changes another will affected).
+
+
+    Advantages of Arrays:-
+      Random access
+      Cache friendliness

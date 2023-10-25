@@ -2,17 +2,17 @@ package Java_Basics;
 
 public class JavaBasics{
  /*
- - Public so that it can be access from anywhere.
+ - Public so that it can be accessed from anywhere.
  - Class is the named group of properties and functions. It is basically a template or a logical construct
  - Class name and file name should be same.
- - Now we we write a funtion inside this class (boilerplate code)
+ - Now  we write a function inside this class (boilerplate code)
  */
 
     public static void main(String args[]){
      /*
      - static
      - void is used so that the method should not have any return value
-     - main is the name of fuction
+     - main is the name of function
      - String args []
      */
 
@@ -60,7 +60,7 @@ public class JavaBasics{
 
 - DATATYPES:-
     byte  1byte
-    bolean 1byte
+    boolean 1byte
     char 2byte
     float 4byte
     int 4byte
@@ -70,7 +70,7 @@ public class JavaBasics{
     Every datatype has different size and memory management efficiently is all we needed.
 
 
- -Primitivies and  Non-Primitives
+ - Primitives and  Non-Primitives
   Typed language is language in which we define the type of variables.
   Its examples are java, c++,python
   Javascript is a non-typed language
@@ -79,7 +79,7 @@ public class JavaBasics{
 
 
 - Type Conversion & Type Casting:-
-   Type conversion is convertering the datatype to different compatible datatype
+   Type conversion is converting the datatype to different compatible datatype
    Type Casting is forcefully converting when java doesn't allows us.
 
  byte < short < int < float < long < double
