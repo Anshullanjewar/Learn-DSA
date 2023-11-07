@@ -3,7 +3,7 @@
       OR
      Data Structure is the collection of similar types of data.
 
-     datatype [] variable name =new datatype [size];
+     datatype [] variable name = new datatype [size];
      Eg:- int [] arr = new int [5];
 
      Operations:-
@@ -24,7 +24,7 @@
 
           arr = new int [5]  -> Initialization of array
                                  The object is created in heap memory at runtime.
-
+   
 
     - It has 0-based indexing.
     - Default value of the array is 0 or null.
